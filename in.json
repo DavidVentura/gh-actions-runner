@@ -7,19 +7,19 @@
       "DockerArch": "x86_64",
       "NomadArch": "amd64",
       "Count": 1,
-      "Mem": 3072
+      "Mem": 1024
     },
     {
       "DockerArch": "aarch64",
       "NomadArch": "arm64",
       "Count": 1,
-      "Mem": 3072
+      "Mem": 1024
     },
     {
       "DockerArch": "riscv64",
       "NomadArch": "riscv64",
       "Count": 1,
-      "Mem": 3072
+      "Mem": 1024
     }
   ]
 }
