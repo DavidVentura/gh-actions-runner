@@ -1,0 +1,25 @@
+{
+  "DockerImage": "davidv27/gh-actions-rs",
+  "Repo": "DavidVentura/tpom",
+  "JobName": "TpomRunners",
+  "Workers": [
+    {
+      "DockerArch": "x86_64",
+      "NomadArch": "amd64",
+      "Count": 1,
+      "Mem": 3072
+    },
+    {
+      "DockerArch": "aarch64",
+      "NomadArch": "arm64",
+      "Count": 1,
+      "Mem": 3072
+    },
+    {
+      "DockerArch": "riscv64",
+      "NomadArch": "riscv64",
+      "Count": 1,
+      "Mem": 3072
+    }
+  ]
+}
